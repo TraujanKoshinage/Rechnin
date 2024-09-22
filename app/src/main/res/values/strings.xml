@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Rechni</string>
+    <string name="Op1">add</string>
+    <string name="OperationMode">TextView</string>
 </resources>

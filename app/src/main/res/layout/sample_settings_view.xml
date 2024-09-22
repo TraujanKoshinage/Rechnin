@@ -1,0 +1,42 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.rechni.SettingsView
+        style="@style/Widget.Theme.Rechni.MyView"
+        android:layout_width="339dp"
+        android:layout_height="match_parent"
+        android:paddingStart="20dp"
+        android:paddingBottom="40dp"
+        app:exampleDimension="24sp"
+        app:exampleDrawable="@android:drawable/ic_menu_add"
+        app:exampleString="Hello, SettingsView"
+        tools:ignore="RtlSymmetry" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:ellipsize="none"
+        android:scaleX="1"
+        android:scaleY="1"
+        android:text="@string/Op1"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="186dp"
+        android:layout_height="39dp"
+        android:layout_gravity="clip_horizontal"
+        android:clickable="false"
+        android:contextClickable="false"
+        android:text="@string/OperationMode"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:visibility="visible"
+        tools:text="Operation-mode:" />
+
+</FrameLayout>

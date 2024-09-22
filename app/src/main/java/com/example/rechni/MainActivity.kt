@@ -15,10 +15,14 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.example.rechni.ui.theme.RechniTheme
 import kotlin.random.Random
 
-class MainActivity : ComponentActivity()
 
 
-//Declaration of Maximum and Minimum Values for the random Nummbers
+class MainActivity : ComponentActivity(){
+
+}
+
+
+//Declaration of Maximum and Minimum Values for the random Numbers
 var min1 = 0
 var max1 = 1000
 var min2 = 0
@@ -27,11 +31,11 @@ var max2 = 1000
 //Declaration of operation (can be : + - * /)
 var op = "error"
 
-//Declaration of final nummbers
+//Declaration of final numbers
 var n1 = 1
 var n2 = 2
 
-//Random Nummber Generator
+//Random Number Generator
 fun getNumbers(min1r: Int, max1r: Int, min2r: Int, max2r :Int){
     n1 = Random.nextInt(from = min1r, until = max1r)
     n2 = Random.nextInt(from = min2r, until = max2r)
